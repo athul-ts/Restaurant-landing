@@ -1,0 +1,351 @@
+@font-face{
+    font-family: montserrat;
+    src: url("./font/[Montserrat]/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: grandhotel;
+    src: url("./font/Grnd hotel/GrandHotel-Regular.ttf") format("truetype");
+}
+
+
+/* 
+.main{
+    background-color: darkgrey;
+    width: 100%;
+    height: 800px;
+    z-index: -40;
+} */
+
+#navbar ul li a{
+    color: white;
+}
+
+#maindiv{
+    margin: 0;
+}
+
+.p1t{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    color: white;
+}
+.p1t h1{
+    font-family: grandhotel;
+    font-size: 80px;
+}
+
+.p1t P{
+    font-family: montserrat;
+    font-size: 22px;
+}
+
+#bg1{
+    background-image: url("./img/p one.png");
+    width: 40%;
+    height: 513px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -30;
+}
+
+#bg2 {
+    background-image: url(./img/p2.png);
+    width: 562px;
+    height: 324px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(270deg);
+    z-index: -10;
+    position: absolute;
+    top: 26%;
+    left: 20%;
+}
+
+#bg3{
+    background-image: url("./img/p3.png");
+    width: 30%;
+    height: 513px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -20;
+}
+
+#bg4{
+    background-image: url("./img/p3.png");
+    width: 30%;
+    height: 513px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -20;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.p2h3 , #p2h{
+    font-family: grandhotel;
+}
+
+#p2p{
+    font-family: montserrat;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.p3{
+    width: 100%;
+    height: 535px;
+    position: relative;
+}
+
+
+
+.p3bgimg {
+    background-image: url(./img/bgp31.png);
+    width: 100%;
+    height: 372px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 30.9%;
+    z-index: -30;
+}
+
+.p3img img{
+    width: 75%;
+    align-items: center;
+}
+
+.p3hp{
+    z-index: 20;
+}
+
+.p3hp h1{
+font-family: grandhotel;
+}
+
+.p3hp p{
+    font-family: montserrat;
+}
+
+.p3hp{
+    align-items: bottom;
+}
+
+.p3r{
+    text-align: center; 
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+.p4{
+    background-image: url("./img/p4bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: center;
+}
+
+.p4c{
+    width: 100px;
+    height: 200px;
+    border-radius: 100%;
+    border:1px solid white;
+    border-width:2px;
+    border-style:solid;
+    border-color: white;
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 46px;
+    padding-left: 10px;
+}
+
+.p4r{
+    justify-content: space-evenly;;
+    align-content: center;
+    
+ }
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+.p5{
+    width: 100%;
+    height: 535px;
+    position: relative;
+}
+
+.p5bgimg {
+    background-image: url(./img/bgp51.png);
+    width: 100%;
+    height: 372px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    /* top: 30.9%; */
+    z-index: -30;
+}
+
+.p5img img{
+    width: 75%;
+    align-items: center;
+}
+
+.p5hp{
+    z-index: 20;
+}
+
+.p5hp h1{
+font-family: grandhotel;
+}
+
+.p5hp p{
+    font-family: montserrat;
+}
+
+.p5hp{
+    align-items: bottom;
+}
+
+.p5r{
+    text-align: center; 
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+.p6{
+    background-image: url("./img/p6bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 603px;
+    position: relative;
+    z-index: -30;
+}
+
+.p6::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 245, 75, 0.74); /* Change the color and opacity as needed */
+    z-index: -20;
+}
+
+.p6 h1{
+    font-family: grandhotel;
+    font-size: 50px;
+}
+.p6 p{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 200px;
+}
+
+
+/* ------------------------------------------------------------------------- part 7 */
+
+.p7{
+    width: 100%;
+    height: 505px;
+    margin: auto;
+}
+
+.p7 h1{
+    font-family: grandhotel;
+    font-size: 50px;
+}
+
+.p7 p{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400;
+}
+.inpt input{
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 36px;
+    text-align: left;
+    padding-left: 10px;
+    box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.2);
+}
+
+
+.p7in{
+    margin-top: 100px;
+}
+
+
+/* ------------------------------------footer------------------------- */
+
+
+.footer{
+    width: 100%;
+    height: 530px;
+    background-color: rgb(40, 40, 40);
+}
+
+.r2 img{
+    width: 15% ;
+}
+
+.ulf{
+    list-style-type: none;
+}
+
+.ulf a{
+    text-decoration: none;
+    color: white;
+}
+
+.r1{
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    font-family: Montserrat;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
