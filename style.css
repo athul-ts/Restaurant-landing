@@ -37,7 +37,7 @@
 
 .p1t{
     position: absolute;
-    left: 50%;
+    left: 52%;
     top: 32%;
     color: white;
 }
@@ -64,16 +64,17 @@
 #bg2 {
     background-image: url(./img/Design.png);
     width: 793px;
-    height: 517px;
+    height: 603px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* transform: rotate(1deg); */
     z-index: -10;
     position: absolute;
-    top: 14%;
-    left: 30%;
+    top: 0%;
+    left: 36%;
 }
+
 
 #bg3{
     background-image: url("./img/p3.png");
