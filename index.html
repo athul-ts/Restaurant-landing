@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- -----------------css------------------ -->
-
-    <link rel="stylesheet" href="./style.css">
+    
 
     <!-- ---------------------Bootstrap-------------------- -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- -----------------css------------------ -->
+
+    <link rel="stylesheet" href="./style.css">
 
 
 </head>
@@ -28,15 +29,15 @@
         <!-- -----------------------------nav bar-------------------------------- -->
 
 
-        <nav class="navbar navbar-expand-lg fixed-top m-0 p-0 ">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
+            <div class="container-fluid">
                 <a class="navbar-brand p-3" href="#">
                     <img class="bn" src="./img/logo.png" width="110" height="=60" alt="logo">
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">             
                 <ul class="navbar-nav ms-auto">
                     <li class="wnt nav-item">
                         <a class="nav-link" href="">HOME</a>
@@ -89,17 +90,17 @@
         <div class="row m-0 text-center">
 
             <div class="col-sm-4 ">
-                <img src="./img/c1.png" alt="" class="rounded-circle">
+                <img src="./img/c1.png" alt="" class="p2c rounded-circle">
                 <h3 class="p2h3 p-3">Title Here</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. <br> Cumque laborum totam !</p>
             </div>
             <div class="col-sm-4">
-                <img src="./img/c2.png" alt="" class="rounded-circle">
+                <img src="./img/c2.png" alt="" class="p2c rounded-circle">
                 <h3 class="p2h3 p-3">Title Here</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. <br> Cumque laborum totam !</p>
             </div>
             <div class="col-sm-4">
-                <img src="./img/c3.png" alt="" class="rounded-circle">
+                <img src="./img/c3.png" alt="" class="p2c rounded-circle">
                 <h3 class="p2h3 p-3">Title Here</h3>
                 <p>Lorem ipsum dolor sit amet consectetur. <br> Cumque laborum totam !</p>
             </div>
@@ -144,24 +145,40 @@
                 magnam eius molestias alias sequi.</p>
         </div>
 
-        <div class="p4r row m-0">
+        <div class="p4r row m-0 p-5">
 
-            <div class="p4c col-2 col-xs-12">
-                <h1 class="text-warning">123</h1>
-                <h3>OUTLET</h3>
+            <div class="col-md-12">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="p4c">
+                        <h1 class="text-warning">123</h1>
+                        <h3>OUTLET</h3>
+                    </div>
+                    <div class="p4c">
+                        <h1 class="text-warning">100</h1>
+                        <h3>CHEF</h3>
+                    </div>
+                    <div class="p4c">
+                        <h1 class="text-warning">300</h1>
+                        <h3>MENU</h3>
+                    </div>
+                    <div class="p4c">
+                        <h1 class="text-warning">30</h1>
+                        <h3>CONTRY</h3>
+                    </div>
+                </div>
             </div>
-            <div class="p4c col-2 col-xs-12">
+            <!-- <div class="p4c col-sm-2 col-md-2 col-lg-2">
                 <h1 class="text-warning">100</h1>
                 <h3>CHEF</h3>
             </div>
-            <div class="p4c col-2 col-xs-12">
+            <div class="p4c col-sm-2 col-md-2 col-lg-2">
                 <h1 class="text-warning">300</h1>
                 <h3>MENU</h3>
             </div>
-            <div class="p4c col-2 col-xs-12">
+            <div class="p4c col-sm-2 col-md-2 col-lg-2">
                 <h1 class="text-warning">30</h1>
                 <h3>CONTRY</h3>
-            </div>
+            </div> -->
 
         </div>
 
@@ -216,7 +233,7 @@
     </div>
 
 
-    <!-- ----------------------------------------part  7--------------------------------------- -->
+    <!-- ----------------------------------------part  7-------------------------------------- -->
 
 
     <div class="p7 text-center ">
@@ -247,7 +264,7 @@
 
         <div class="r1 row col-xs-12 m-0">
 
-            <div class="col-4">
+            <div class="col-sm-4">
                 <h3>Title Here</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque sed cupiditate, harum, libero molestias quas aperiam illum voluptate.</p>
                 
@@ -260,7 +277,7 @@
                 </div>
             </div>
 
-            <div class="col-2">
+            <div class="fla1 col-sm-2">
                 <ul class="ulf">
                     <h3>About</h3>
                     <li><a href="">History</a></li>
@@ -271,7 +288,7 @@
                 </ul>
             </div>
 
-            <div class="col-2">
+            <div class="fla col-sm-2">
                 <ul class="ulf">
                     <h3>Services</h3>
                     <li><a href="">How to Order</a></li>
@@ -282,7 +299,7 @@
                 </ul>
             </div>
 
-            <div class="col-2">
+            <div class="fla col-sm-2">
                 <ul class="ulf">
                     <h3>Other</a></h3>
                     <li><a href="">Contact Us</a></li>

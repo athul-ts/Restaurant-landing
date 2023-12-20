@@ -37,7 +37,7 @@
 
 .p1t{
     position: absolute;
-    left: 52%;
+    left: 57%;
     top: 32%;
     color: white;
 }
@@ -97,6 +97,10 @@
     font-family: montserrat;
 }
 
+
+
+
+
 /* -------------------------------------------------------------------------------- */
 
 .p3{
@@ -155,7 +159,7 @@ font-family: grandhotel;
     background-repeat: no-repeat;
     /* background-size: cover; */
     width: 100%;
-    height: 600px;
+    height: auto;
     position: relative;
     text-align: center;
     z-index: -40;
@@ -183,7 +187,7 @@ font-family: grandhotel;
 
 .p4c{
     width: 100px;
-    height: 200px;
+    height: 20%;
     border-radius: 100%;
     border:1px solid white;
     border-width:6px;
@@ -366,7 +370,6 @@ font-family: grandhotel;
     height: 100%;
     font-family: Montserrat;
     color: white;
-    
 }
 
 
@@ -378,12 +381,440 @@ font-family: grandhotel;
 
 @media screen and ( min-device-width: 320px ) {
 
+    .main{
     
+        width: 100%;
+        height: 602px;
+        /* z-index: -40; */
+    }
+    
+    .main .row{
+        width: 100%;
+        height: 100vh;    
+    }
+    
+    .wnt a{
+        color: white;
+    }
+    
+    #navbar ul li a{
+        color: white;
+    }
+    
+    .bn{
+        width: 145px;
+    }
+    
+    
+    .p1t{
+        position: absolute;
+        left: 52%;
+        top: 32%;
+        color: white;
+    }
+    .p1t h1{
+        font-family: grandhotel;
+        font-size: 40px;
+    }
+    
+    .p1t P{
+        font-family: montserrat;
+        font-size: 11px;
+    }
+
+    .main nav{
+        width: 100%;
+    }
+    
+    #bg1{
+        background-image: url("./img/p one.png");
+        width: 50%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -30;
+    }
+    
+    #bg2 {
+        background-image: url(./img/Design.png);
+        width: 58%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* transform: rotate(1deg); */
+        z-index: -10;
+        position: absolute;
+        top: 0%;
+        left: 42%;
+    }
+    
+    
+    #bg3{
+        background-image: url("./img/p3.png");
+        width: 50%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -20;
+    }
+    /* -----------------------------------part 2--------------------------------- */
+    .p2c {
+        width: 40%;
+    }
 
 
 
 
 
+    /* ------------------------------part 3---------------------------------- */
+
+
+    .p3 {
+        width: 100%;
+        height: 337px;
+        position: relative;
+    }
+
+
+
+
+    /* --------------------------------part 4--------------------------- */
+
+    .p4 {
+        background-image: url(./img/p4bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        width: 100%;
+        height: 1198px;
+        position: relative;
+        text-align: center;
+        z-index: -40;
+    }
+
+
+    .p4 img {
+        width: 100%;
+        height: 380px;
+        position: absolute;
+        z-index: -30;
+        left: 0%;
+        top: 0%;
+    }
+
+
+    /* .p4c {
+        width: 45%;
+        height: 181px;
+    } */
+    .p4c {
+        width: 100%;
+        height: 191px;
+    }
+
+    /* ----------------------------------------part 5---------------------------------- */
+
+
+    .p5 {
+        width: 100%;
+        height: 311px;
+        position: relative;
+    }
+
+
+
+    .p5bgimg {
+        background-image: url(./img/bgp51.png);
+        width: 100%;
+        height: 35%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: -1%;
+        z-index: -30;
+    }
+
+
+
+
+
+/* -------------------------------------------part 7----------------------------------- */
+
+
+    .inpt input {
+        border: none;
+        border-radius: 3px;
+        width: 160px;
+        height: 36px;
+        text-align: left;
+        padding-left: 10px;
+        box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+
+    /* ------------------------------------footer------------------------ */
+
+
+    .footer {
+        width: 100%;
+        height: 840px;
+        background-color: rgb(40, 40, 40);
+    }
+
+
+    .fla{
+        padding: 15px;
+    }
+
+    .fla1{
+        padding: 25px;
+    }
+
+
+
+    /* -------------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------------------ */
+
+
+    @media screen and ( min-device-width: 426px ) {
+
+
+        /* --------------------------part 1------------------------------ */
+
+        #bg2 {
+            background-image: url(./img/Design.png);
+            width: 58%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* transform: rotate(1deg); */
+            z-index: -10;
+            position: absolute;
+            top: 0%;
+            left: 42%;
+        }
+
+
+
+
+        .p2c{
+            width: 40%;
+        }
+
+
+        /* ---------------------------------------part 3---------------------------------- */
+
+        
+
+        .p3r {
+            text-align: center;
+            align-items: center;
+            padding-top: 19px;
+        }
+
+
+        /* -----------------------------part 4------------------------------- */
+
+
+
+        
+
+        .p4c {
+                width: 45%;
+                height: 181px;
+            }
+
+            .p4 {
+                background-image: url(./img/p4bg.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                /* background-size: cover; */
+                width: 100%;
+                height: 756px;
+                position: relative;
+                text-align: center;
+                z-index: -40;
+            }
+
+
+
+
+
+
+
+
+        /* -------------------------------part 5------------------------------- */
+
+
+        .p5bgimg {
+            background-image: url(./img/bgp51.png);
+            width: 100%;
+            height: 53%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: -5%;
+            z-index: -30;
+        }
+        
+
+
+
+
+
+
+    }
+
+     /* -------------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------------------ */
+
+
+    @media screen and ( min-device-width: 768px ) {
+
+
+        
+        /* ----------------------------part 1----------------------- */
+        .p1t{
+            position: absolute;
+            left: 53%;
+            top: 32%;
+            color: white;
+        }
+        .p1t h1 {
+            font-family: grandhotel;
+            font-size: 65px;
+        }
+        
+        .p1t P{
+            font-family: montserrat;
+            font-size: 16px;
+        }
+
+
+
+
+
+
+        /* ----------------------------part 3---------------------------- */
+
+        .p3bgimg {
+            background-image: url(./img/bgp31.png);
+            width: 100%;
+            height: 372px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 13%;
+            z-index: -30;
+        }
+
+        
+/* -------------------------------------part 3---------------------------------- */
+
+
+
+
+        /* -----------------------------------part 4------------------------------------ */
+
+        .p4 {
+            background-image: url(./img/p4bg.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            width: 100%;
+            height: 650px;
+            position: relative;
+            text-align: center;
+            z-index: -40;
+        }
+
+        .p4c {
+            width: 19%;
+            height: 202px;
+        }
+
+
+
+        /* ------------------------part 5--------------------------------- */
+
+        .p5 {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+
+        .p5bgimg {
+            background-image: url(./img/bgp51.png);
+            width: 100%;
+            height: 372px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 0%;
+            z-index: -30;
+        }
+        
+
+
+
+
+        /* ----------------------------------footer--------------------------------------- */
+        .footer{
+            width: 100%;
+            height: 530px;
+            background-color: rgb(40, 40, 40);
+        }
+        
+        .r2 img{
+            width: 15% ;
+        }
+        
+        .ulf{
+            list-style-type: none;
+        }
+        
+        .ulf a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        .r1{
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+            font-family: Montserrat;
+            color: white;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
 
 
 
