@@ -212,6 +212,7 @@ font-family: grandhotel;
  .con h1{
     font-family: grandhotel;
     font-size: 80px;
+    padding-top: 2%;
  }
 
  .con p{
@@ -595,9 +596,24 @@ font-family: grandhotel;
 
         /* --------------------------part 1------------------------------ */
 
-        #bg2 {
+        /* #bg2 {
             background-image: url(./img/Design.png);
             width: 58%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform: rotate(1deg);
+            z-index: -10;
+            position: absolute;
+            top: 0%;
+            left: 42%;
+        } */
+
+
+        #bg2 {
+            background-image: url(./img/Design.png);
+            width: 61%;
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
@@ -606,7 +622,7 @@ font-family: grandhotel;
             z-index: -10;
             position: absolute;
             top: 0%;
-            left: 42%;
+            left: 39%;
         }
 
 
