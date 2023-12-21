@@ -101,7 +101,7 @@
 
 
 
-/* -------------------------------------------------------------------------------- */
+/* --------------------------------------part 3------------------------------------------ */
 
 .p3{
     width: 100%;
@@ -120,7 +120,7 @@
     background-size: contain;
     position: absolute;
     top: 30.9%;
-    z-index: -30;
+    
 }
 
 .p3img img{
@@ -537,7 +537,14 @@ font-family: grandhotel;
         top: -1%;
         z-index: -30;
     }
+/* ---------------------------------part 6------------------------------------------ */
 
+.p6 p {
+    font-family: montserrat;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 200px;
+}
 
 
 
@@ -657,13 +664,12 @@ font-family: grandhotel;
         .p5bgimg {
             background-image: url(./img/bgp51.png);
             width: 100%;
-            height: 53%;
+            height: 71%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
             position: absolute;
-            top: -5%;
-            z-index: -30;
+            top: -16%;
         }
         
 
@@ -762,8 +768,7 @@ font-family: grandhotel;
             background-repeat: no-repeat;
             background-size: contain;
             position: absolute;
-            top: 0%;
-            z-index: -30;
+            top: -19%;
         }
         
 
